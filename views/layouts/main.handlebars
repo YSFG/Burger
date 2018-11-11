@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Burgers</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/burger_style.css">
+  <link rel="stylesheet" href="assets/img">
+</head>
+
+<body>
+  {{!-- placed jumbotron in here, it wasn't going its full width when code was inserted in the index.handlebars file
+  --}}
+  <div class="jumbotron text-center">
+    <div class="container">
+      <h1 id="title">Ea Da Burger</h1>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    {{{ body }}}
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/assets/js/burgers.js"></script>
+
+</body>
+
+</html>

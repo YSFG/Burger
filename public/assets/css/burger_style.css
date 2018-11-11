@@ -1,0 +1,70 @@
+body {
+  background-color: 
+  #c3c74f ;
+  /* #f4a127 */
+}
+
+/* jumbrotron */
+.jumbotron {
+  background-color: 
+  #7a5c54;
+  color: white;
+  padding: 30px 0px; 
+}
+#title {
+  font-size: 100px;
+  letter-spacing: 10px;
+}
+
+/* all h2 tags */
+.heading {
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* left and right side lists*/
+li {
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* center form for adding burger */
+img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+.burger-btn{
+  background-color: #b1613e;
+  color: white;
+}
+
+/* left side list */
+.left-side {
+  text-align: right;
+  margin-right: 80px;
+}
+#star-img{
+ font-size: 15px;
+ color: white;
+}
+.devoured {
+  background-color: #c3c74f;
+  border: none;
+}
+
+
